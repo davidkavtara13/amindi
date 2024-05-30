@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h3>Weather</h3>
+      <nav>
+        <ul>
+          <li class="home">home</li>
+          <li>catalogue</li>
+          <li>about us</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Weather API</h1>
+      <div class="card">
+        <div class="top">
+          <div class="map">
+            <p class="lat">
+              <img src="map.png" alt="map" />Latitude :
+              <span id="latitude"></span>
+            </p>
+            <p>Longtitude: <span id="longtitude"></span></p>
+          </div>
+          <img src="moon.png" id="timeIcon" alt="" />
+        </div>
+        <div class="middle">
+          <img src="cloudy.png" id="weatherIcon" alt="weather" />
+          <span id="celsius">20</span>
+        </div>
+        <div class="bottom">
+          <p class="fare">
+            <img src="f.png" alt="farengate" /><span class="celsi">20</span>
+          </p>
+          <p class="wind">
+            <img src="wind.png" alt="wind" /><span class="km">2</span> km/h
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
